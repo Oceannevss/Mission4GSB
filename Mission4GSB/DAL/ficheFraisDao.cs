@@ -13,6 +13,8 @@ namespace Mission4GSB.DAL
 
         private MySqlCommand myConn;
 
+        private String v;
+
         public void updateCL(GestionDate date)
         {
             try
