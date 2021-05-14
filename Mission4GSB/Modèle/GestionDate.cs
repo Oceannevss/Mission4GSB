@@ -10,6 +10,8 @@ namespace Mission4GSB
     {
          DateTime aujourdhui = DateTime.Now;
 
+        DateTime hier = DateTime.Now.AddDays(-1);
+
         /// <summary>
         /// Fonction recupère la date actuelle
         /// </summary>
