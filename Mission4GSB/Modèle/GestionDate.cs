@@ -8,9 +8,7 @@ namespace Mission4GSB
 {
    public class GestionDate
     {
-         DateTime aujourdhui = DateTime.Now;
-
-        DateTime hier = DateTime.Now.AddDays(-1);
+        DateTime aujourdhui = DateTime.Now;
 
         /// <summary>
         /// Fonction recupère la date actuelle
